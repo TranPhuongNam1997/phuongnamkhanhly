@@ -506,7 +506,7 @@ header#inner-navigation {
 #inner-navigation .nav.navbar-nav>li>a {
     font-size: 15px;
     font-family: 'Shantell Sans', cursive;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
     padding: 30px 0;
     position: relative;
@@ -5634,8 +5634,8 @@ transform: translate(-50%, -50%);
 
 .donate-modal-header strong span{margin-left:10px;}
 .donate-modal-body {padding: 0 15px;}
-.donate-box{display: flex;justify-content: space-evenly;flex-wrap: wrap;}
-.donate-box .donate-card{width: calc(50% - 40px);margin: 20px;padding: 20px;border: 3px solid #f23b43;border-radius: 10px;}
+/* .donate-box{display: flex;justify-content: space-evenly;flex-wrap: wrap;} */
+.donate-box .donate-card{width: 100%;padding: 20px;border: 3px solid #f23b43;border-radius: 10px;text-align: center;}
 .donate-box .donate-card:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
 .donate-box .donate-card h3{padding:0;margin:0;margin-bottom: 20px;font-weight: bold;font-size: 18px;line-height: 30px;}
 .donate-box .donate-card p {margin: 10px 0!important;font-size: 16px;}
@@ -5805,4 +5805,8 @@ transform: translate(-50%, -50%);
     left: 1px;
     color: rgb(255, 255, 255);
     text-align: center;
+}
+.container-qr{
+    max-width: 850px;
+    margin: 0 auto;
 }
