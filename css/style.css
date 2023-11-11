@@ -5810,3 +5810,6 @@ transform: translate(-50%, -50%);
     max-width: 850px;
     margin: 0 auto;
 }
+.pb-0{
+    padding-bottom: 0;
+}
