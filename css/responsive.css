@@ -465,7 +465,7 @@
   }
   
   .event-stack p {
-  	font-size: 18px;
+  	font-size: 16px;
   }
   
   .event-stack a,
@@ -1278,6 +1278,16 @@
   
   .cp-detail {
   	margin-top: 10px;
+  }
+  .black-overlay-se {
+    background: linear-gradient(360deg, #6f6d6d 50%, #ffff0000);
+
+  }
+  .quote-img img.ic-main{
+    position: unset;
+  }
+  .home-3 .quote-img img.ic-main{
+    border: 5px solid #fbfbfb;
   }
 }
 

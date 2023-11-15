@@ -2345,7 +2345,7 @@ section#about-us.aboutus {
 }
 
 @media(max-width:767px) {
-	.the-countdown,.the-quote, .footer-widgets {background-attachment:initial!important;background-position:center!important;}
+	.the-countdown,.the-quote, .footer-widgets {background-attachment:initial!important;background-position:top!important;}
 }
 
 .the-countdown:before {
@@ -5824,4 +5824,7 @@ ul.insta-info-list {
 }
 .pb-0{
     padding-bottom: 0;
+}
+.image-story img {
+    width: 100%;
 }
