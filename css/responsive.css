@@ -72,7 +72,7 @@
   }
 
   section#our-story {
-    padding-top: 60px
+    padding-top: 15px
   }
 
   .couple-img h4 {
@@ -86,7 +86,8 @@
 
   .about-couple h3 {
     /*margin-left: 0;*/
-    font-size: 21px
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .cp-social ul {
@@ -116,7 +117,7 @@
   }
 
   .event-stack {
-    padding: 20px
+    padding: 15px
   }
 
   .important-people ul.nav.nav-tabs {
@@ -769,7 +770,7 @@
 
   .footer-widgets {
     background-size: 130%;
-    background-position: 4px 11px
+    background-position: -555px 0!important;
   }
 
   .footer-note {
@@ -798,6 +799,15 @@
 }
 
 @media only screen and (max-width:767px) {
+  .footer-widgets{
+    margin-top: 0;
+  }
+  .container-qr .col-md-6:last-child .donate-box .donate-card{
+    margin-bottom: 0;
+  }
+  .the-countdown{
+    margin-top: 30px;
+  }
 	#scrollup {
 		bottom: 80px;
 	}
@@ -840,7 +850,7 @@
   }
 
   .story-time-mb .story-lt-rt .image-story {
-    margin: 30px auto 60px
+    margin: 25px auto 30px
   }
 
   .story-timeline .col-xs-6 {
@@ -1077,8 +1087,9 @@
   }
 
   .expand-story p {
-    padding: 20px;
-    font-size: 16px
+    padding: 15px;
+    font-size: 16px;
+    min-height: auto;
   }
 
   .image-story {
@@ -1167,11 +1178,16 @@
 	#clock {
 		flex-wrap: wrap;
 	}
+  #clock > div {width: 68px;
+    height: 60px;
+    margin: 9px;}
   .important-people ul.nav.nav-tabs {
     width: 100%;
     text-align: center
   }
-
+  .the-quote .black-overlay-se{
+    background: linear-gradient(-33deg, #000000 50%, #ffff0000);
+  }
   .important-people .nav-tabs>li {
     float: none;
     display: inline-block
@@ -1239,13 +1255,13 @@
   
   .the-couple {
     text-align: center;
-    margin-bottom: 40px
+    margin-bottom: 0px
   }
 
   .couple-img {
-    width: 280px !important;
-    height: 280px !important;
-    margin-bottom: 20px;
+    width: 240px !important;
+    height: 240px !important;
+    margin-bottom: 10px;
     float: none !important
   }
 
@@ -1280,7 +1296,7 @@
   	margin-top: 10px;
   }
   .black-overlay-se {
-    background: linear-gradient(360deg, #6f6d6d 50%, #ffff0000);
+    background: none;
 
   }
   .quote-img img.ic-main{
@@ -1288,6 +1304,23 @@
   }
   .home-3 .quote-img img.ic-main{
     border: 5px solid #fbfbfb;
+  }
+  .time{
+    padding: 12px 0 0 !important;
+  }
+  .count-titles .title-th{
+    margin-bottom: 80px;
+  }
+  .wedding-event{
+    padding: 25px 0 0;
+  }
+  .event-stack h3 {
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-top: 8px;
+  }
+  .event-stack{
+    margin-bottom: 20px;
   }
 }
 
@@ -1310,7 +1343,7 @@
 
   #wd-banner .banner_caption_text {
     width: 90%;
-    top: 35%
+    top: 52%
   }
 
   #wd-banner .banner_caption_text:before, #wd-banner .banner_caption_text:after {
@@ -1352,13 +1385,13 @@
 
   .cp-social ul {
     float: inherit !important;
-    padding: 15px 0;
-    margin-bottom: 0
+    padding: 0px 0 15px;
+    margin-bottom: 0;
   }
 
   .cp-detail {
     margin-top: 0;
-    padding: 18px;
+    padding: 10px;
     font-size: 16px;
   }
 
@@ -1381,7 +1414,8 @@
   }
 
   .count-titles h2 {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-size: 24px;
   }
 
   ul.portfolio li {
@@ -1435,12 +1469,20 @@
   }
 
   .quote-titles h2 {
-    text-align: center
+    text-align: center;
+    font-size: 24px;
+    /* color: #333; */
   }
 
   .quote-counter p {
     font-size: 20px;
-    padding: 0 10px
+    padding: 0 10px;
+    font-size: 16px;
+    /* color: #333; */
+  }
+  .quote-img img.ic-main{
+    width: 220px;
+    height: 220px;
   }
 
   .quote-counter p:before {
@@ -1538,6 +1580,22 @@
   #store-tab-main .nav-tabs>li a {
     padding-left: 0;
     margin-bottom: 14px
+  }
+  .home-3 .rsvp{
+    padding-top: 25px;
+  }
+  .donate-box .donate-card{
+    margin: 20px 0;
+    padding: 15px;
+  }
+  /* .rsvp-widgets .row{
+    margin: 0;
+  }
+  .rsvp-widgets .col-md-6{
+    padding: 0;
+  } */
+  .footer-copyright{
+    padding: 15px 0;
   }
 }
 
