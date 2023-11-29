@@ -5974,7 +5974,7 @@ ul.insta-info-list {
     position: absolute;
     z-index: 999;
     outline: none!important;
-    top: 7px;
+    top: 8px;
     background: transparent;
     font-size: 14px;
     color: #666;
@@ -6053,4 +6053,10 @@ ul.insta-info-list {
 #inner-navigation .navbar-nav.navbar-right.showhide  li a{
     padding: 13px 0;
     font-size: 16px;
+}
+#inner-navigation .nav.navbar-nav.showhide>li>a {
+    color: #333!important;
+}
+#inner-navigation .nav.navbar-nav.showhide>li.active>a {
+color: #e14456 !important
 }
