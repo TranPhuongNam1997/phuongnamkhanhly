@@ -87,7 +87,9 @@
                     </ul>
                 </div>
             </div>
-            <div id="slicknav-mobile"></div>
+            <!-- <div id="slicknav-mobile"></div> -->
+            <button class="nav-toggle prevent-click-home"><span></span></button>
+            <div class="circle d-md-none"></div>
         </nav>
     </header>
 
@@ -580,11 +582,18 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="quote-img wow fadeInLeft">
-                        <a href="https://www.youtube.com/watch?v=aZOUDd7aL2g" target="_blank" class="play-video">
+                        <div >
                             <img
                             src="images/img/img47.JPG" class="ic-main">
                             <!-- <img src="images/ic-yt.png" class="ic-yt" alt=""> -->
-                        </a>
+                            <a class="button-pl is-play" href="https://www.youtube.com/watch?v=aZOUDd7aL2g" target="_blank">
+                                <div class="button-outer-circle has-scale-animation"></div>
+                                <div class="button-outer-circle has-scale-animation has-delay-short"></div>
+                                <div class="button-icon is-play">
+                                    <svg height="100%" width="100%" fill="#f857a6"><polygon class="triangle" points="5,0 30,15 5,30" viewBox="0 0 30 15"></polygon><path class="path" d="M5,0 L30,15 L5,30z" fill="none" stroke="#f857a6" stroke-width="1"></path></svg>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-8 col-xs-12">
@@ -699,7 +708,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-6 mix grid-item">
+                <!-- <div class="col-md-4 col-sm-6 col-xs-6 mix grid-item">
                     <div class="item port-popup">
                         <a href="images/imgzoom/img20.JPG"
                             title="">
@@ -708,7 +717,7 @@
                             <i class="fa fa-search"></i>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-4 col-sm-6 col-xs-6 mix grid-item">
                     <div class="item port-popup">
                         <a href="images/imgzoom/img10.jpg"
@@ -1050,7 +1059,7 @@
     <footer id="footer" class="footer-widgets"
         style="background-image: url('images/img/img20.JPG');background-repeat: no-repeat;background-size: cover;background-position: top;width:100%">
         <div class="footer-note">
-            <h1>Thanh you!</h1>
+            <h1>Thank you!</h1>
             <p>Phương Nam &amp; Khánh Ly</p>
         </div>
         <div class="footer-copyright">
