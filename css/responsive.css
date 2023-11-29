@@ -1597,6 +1597,21 @@
   .footer-copyright{
     padding: 15px 0;
   }
+  .calendar-button{
+    display: none!important;
+  }
+  .button-pl.is-play{
+    left: 148px;
+  }
+  #inner-navigation .sticky h1{
+    margin-bottom: 3px;
+  }
+  .nav-toggle{
+    display: inline-block;
+  }
+  .navbar-sticky-in .nav-toggle.is-active span{
+    background: transparent;
+  }
 }
 
 @media(max-width:479px) {
