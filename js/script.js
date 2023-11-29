@@ -29,6 +29,16 @@
 
         masonryGridSetting();
 
+        $(".nav-toggle").click(function(){
+            $('.circle').toggleClass('expand');
+            $(this).toggleClass('is-active');
+            $('.navbar-right').toggleClass('showhide');
+          });
+          $("#inner-navigation .navbar-nav.navbar-right  li a").click(function(){
+            $('.circle').removeClass('expand');
+            $('.nav-toggle').removeClass('is-active');
+            $('.navbar-right').removeClass('showhide');
+          });
         // SLIDER
         var menu = [];
         jQuery('.swiper-slide').each(function (index) {
@@ -294,6 +304,7 @@
 
     });
     $(window).on('resize', function () { var bodyheight = $(this).height(); $("#mt_banner").height(bodyheight); }).resize();
+    
 })(jQuery);
 
 
